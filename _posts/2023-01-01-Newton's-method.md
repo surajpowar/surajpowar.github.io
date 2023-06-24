@@ -1,6 +1,6 @@
 ---
 title:  "Newton's method for approximation"
-date: 06/24/2023
+date: "`r Sys.Date()`"
 mathjax: true
 layout: post
 categories: media
