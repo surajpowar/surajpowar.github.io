@@ -13,7 +13,7 @@ Newton's method is a technique used for solving an equation which is expressed i
 # Derivation.
 Let us consider a function,
 $$
-y =  f(x) \hspace{5cm} (1)
+y =  f(x) .......................... (1)
 $$
 
 We can use the expansion formula, to be precise, Taylor's expansion in order to expand the function in the form of, 
@@ -26,7 +26,7 @@ We can negelect the third term as it will be very small and we can denote it by,
 
 So, our expansion looks like, 
 
-$$f(x) = f(x_{1}) + f'(x_1) (x - x_{1}) + \zeta  \hspace{3cm} (2)$$
+$$f(x) = f(x_{1}) + f'(x_1) (x - x_{1}) + \zeta ............ (2)$$
 
 Implies that, after substituting (2) in (1), we get,
 
