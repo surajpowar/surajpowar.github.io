@@ -1,7 +1,6 @@
 ---
 title:  "Newton's Method for Approximation"
 author: Suraj Powar
-date: "`r Sys.Date()`"
 mathjax: true
 layout: post
 categories: media
