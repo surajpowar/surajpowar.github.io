@@ -1,5 +1,6 @@
 ---
 title:  "Newton's method for approximation"
+date: 06/24/2023
 mathjax: true
 layout: post
 categories: media
