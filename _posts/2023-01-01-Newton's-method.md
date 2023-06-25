@@ -83,6 +83,6 @@ plt.show()
 
 # Ouput
 
-![Figure1](./Figure_1.png)
+![Figure1](/assets/Figure_1.png))
 
 Hope you find it helpful. Thank you for reading. 
