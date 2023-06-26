@@ -1,7 +1,7 @@
 ---
 title:  "Newton's Method for Approximation"
 author: Suraj Powar
-date: 06-23-2023
+date: 2023-06-23
 mathjax: true
 layout: post
 categories: media
