@@ -13,9 +13,7 @@ Newton's method is a technique used for solving an equation which is expressed i
 
 # Derivation.
 Let us consider a function,
-$$
-y =  f(x) .......................... (1)
-$$
+$$y =  f(x) .......................... (1)$$
 
 We can use the expansion formula, to be precise, Taylor's expansion in order to expand the function in the form of, 
 
