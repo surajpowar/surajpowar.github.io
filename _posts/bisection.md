@@ -1,5 +1,7 @@
 ---
-title:  "Bisection Method"
+title:  "Bisection Method for Approximation"
+author: Suraj Powar
+date: 2023-06-26
 mathjax: true
 layout: post
 categories: media
