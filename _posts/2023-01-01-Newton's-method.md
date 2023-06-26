@@ -49,7 +49,7 @@ $$ \hspace{12 cm}\blacksquare$$
 This is how we derive the newtons method.
 
 # Code
-```javascript
+```python3
 import numpy as np
 import sympy as smp
 import matplotlib.pyplot as plt
