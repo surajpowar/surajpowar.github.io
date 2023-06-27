@@ -12,13 +12,14 @@ As we are well aware of the fact, that if we have a function say f, the process 
 
 If the function equals to zero, then we say x is the root of a function. This method is based on the intermediate value theorem or also known as IVT for continuous function. 
 
+$$
 \begin{theorem}
 Let f be a continuous function on a closed interval [a, b]. Assume that m is a number between f(c) and f(b). Then \\(\exists\\)
 
 
 
 \end{theorem}
-
+$$
 
 # Code
 ```python3
