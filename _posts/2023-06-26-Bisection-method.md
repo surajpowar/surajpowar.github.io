@@ -1,7 +1,7 @@
 ---
 title:  "Bisection Method for Approximation"
 author: Suraj Powar
-date: 2023-06-26
+date: 2023-07-1
 mathjax: true
 layout: post
 categories: media
@@ -12,14 +12,13 @@ As we are well aware of the fact, that if we have a function say f, the process 
 
 If the function equals to zero, then we say x is the root of a function. This method is based on the intermediate value theorem or also known as IVT for continuous function. 
 
-$$
 \begin{theorem}
 Let f be a continuous function on a closed interval [a, b]. Assume that m is a number between f(c) and f(b). Then \\(\exists\\)
 
 
 
 \end{theorem}
-$$
+
 
 # Code
 ```python3
@@ -30,31 +29,34 @@ from sympy import *
 from math import *
 
 func =  lambda x : x**2 -2
-funcprime = lambda x: 2*x 
 
-#initial Guess
-x0 = 2
-iteration = 20
-x1 = x0
+a = 1
+b = 3
 
-guess = []
-for i in range(1,iteration):
-    x1 = x1 - (func(x1)/funcprime(x1))
-    guess = [guess, x1]
-    print(guess)
+if func(a)*func(b) > 0:
+    print("Could not find the root.")
+else: 
+    while ((b - a)/2) > 0.00001:
+        m = (b + a)/2
+        if func(m) == 0:
+            print(m)
+        elif func(a)*func(m) < 0:
+            b = m
+        else:
+            a = m
 
-print(x1)
-print(np.sqrt(2) - x1)
+print(m)
 
-xvals = np.linspace(-2, 3, num=100)
+xvals = np.linspace(-2, 6, num=100)
 yvals = func(xvals)
 plt.plot(xvals,yvals, label = "y = x^2 - 2")
-plt.plot(x1, func(x1), "o", label = x1)
-plt.title("Newtons Method for Numerical Approximation")
+plt.plot(m, func(m), "o", label = m)
+plt.title("Bisection Method for Numerical Approximation")
 plt.legend()
 plt.show()
+
 ```
 
 # Ouput
 
-![](assets/Figure_1.png)
+![](assets/Figure_2.png)
