@@ -55,4 +55,4 @@ plt.show()
 
 # Output
 
-![](assets/Figure_2.png)
+![Figure2](/assets/Figure_2.png)
