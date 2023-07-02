@@ -56,3 +56,5 @@ plt.show()
 # Output
 
 ![Figure2](/assets/Figure_2.png)
+
+Hope this was helpful.
