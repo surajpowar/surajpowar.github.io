@@ -53,6 +53,6 @@ plt.show()
 
 ```
 
-# Ouput
+# Output
 
 ![](assets/Figure_2.png)
