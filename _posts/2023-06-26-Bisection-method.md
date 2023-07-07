@@ -12,8 +12,9 @@ As we are well aware of the fact, that if we have a function say f, the process 
 
 If the function equals to zero, then we say x is the root of a function. This method is based on the intermediate value theorem or also known as IVT for continuous function. 
 
-Let f be a continuous function on a closed interval [a, b]. Assume that m is a number between f(c) and f(b). Then $$ \exists $$
+Let f be a continuous function on a closed interval [a, b]. Assume that m is a number between f(c) and f(b). Then $\exists$ atleast one number c in the interval [a, b], such that, $$f(a) = m$$
 
+One can observe that we do not need a derivative of a function to compute a bisection method. The idea is halving the interval till we find the root value of the function.
 
 
 # Code
