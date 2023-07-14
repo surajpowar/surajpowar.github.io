@@ -1,5 +1,5 @@
 ---
-title:  "Bisection Method"
+title:  "Secant Method for Approximation"
 mathjax: true
 layout: post
 categories: media
