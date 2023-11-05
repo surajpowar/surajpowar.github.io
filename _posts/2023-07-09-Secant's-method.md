@@ -93,5 +93,6 @@ plt.show()
 ```
 
 # Ouput
+![Figure1](/assets/Figure_3.png)
 
-
+Thank you for reading.
