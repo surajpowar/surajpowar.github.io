@@ -5,5 +5,6 @@ layout: post
 categories: media
 ---
 
-501: Measure Theory \newline
+501: Measure Theory 
+
 507: Partial Differential Equations
