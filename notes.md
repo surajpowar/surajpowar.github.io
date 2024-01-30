@@ -1,10 +1,10 @@
 ---
-title:  "Notes"
-mathjax: true
-layout: post
-categories: media
+layout: default
+title: "Notes"
 ---
 
-501: Measure Theory 
-
-507: Partial Differential Equations
+{% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
