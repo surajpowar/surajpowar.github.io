@@ -3,4 +3,4 @@ layout: default
 title: "Notes"
 ---
 
-- {title: "Notes", url: "/pde_notes.pdf"}
+- {title: "Notes", url: "/"}
