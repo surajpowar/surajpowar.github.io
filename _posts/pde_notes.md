@@ -1,7 +1,7 @@
 ---
 title:  "Partial Differential Equations Notes"
 author: Suraj Powar
-date: 2023-06-23
+date: 2024-06-02
 mathjax: true
 layout: post
 categories: media
