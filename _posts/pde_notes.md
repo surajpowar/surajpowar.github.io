@@ -1,11 +1,10 @@
 ---
-title:  "Partial Differential Equations Notes"
-author: Suraj Powar
-date: 2024-06-02
+title:  "Partial Differential Equation Notes"
 mathjax: true
 layout: post
 categories: media
 ---
+
 
 # Newton's method for numerical approximation.
 
