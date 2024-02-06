@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "CV", url: "/Suraj_Powar_Resume.pdf"}
   #- {title: "Software", file: "calcutool.md"}
   - {title: "Blog", file: "blog.md"}
-  - {title: "Notes", url: "/pde_notes.pdf"}
+  - {title: "Notes", file: "notes.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "suraj.powar@yahoo.com"}
