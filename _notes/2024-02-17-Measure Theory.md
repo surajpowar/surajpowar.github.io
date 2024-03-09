@@ -1,7 +1,7 @@
 ---
 title:  "Measure Theory"
 mathjax: true
-layout: post
+layout: note
 categories: media
 ---
 
