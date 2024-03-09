@@ -11,8 +11,8 @@
   <u2 class="archive">
     {% for note in site.notes %}
     <li>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%Y-%m-%d" }}</time>
+      <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
     </li>
     {% endfor %}
   </u2>
