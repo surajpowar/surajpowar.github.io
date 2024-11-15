@@ -3,7 +3,7 @@ layout: page
 title: "Notes"
 ---
 
-# Notes
+# Notes taken in preparation of qualifying exam.
 
 Welcome to my notes page! Below are links to different topics I've written notes for:
 
