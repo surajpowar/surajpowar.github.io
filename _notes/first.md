@@ -1,4 +1,3 @@
-
 ---
 title:  "Solution to Python Crash Course: Eric Matthes."
 author: Suraj Powar
