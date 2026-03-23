@@ -7,12 +7,11 @@ layout: post
 categories: media
 ---
 
-# Newton's method for numerical approximation. ---
-#title:  "Solution to Python Crash Course: Eric Matthes."
-#author: Suraj Powar
-#mathjax: true
-#layout: notes
-#categories: media
-#---
+title:  "Solution to Python Crash Course: Eric Matthes."
+author: Suraj Powar
+mathjax: true
+layout: notes
+categories: media
+---
 
 # Solution to the exercise from Chapter 1 Basics.
