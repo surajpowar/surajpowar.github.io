@@ -1,12 +1,13 @@
 ---
 title: "Notes"
-layout: archive
+layout: default
 permalink: /notes/
 ---
 
-{% if site.show_excerpts %}
-  {% include home_2.html %}
-{% else %}
-  {% include archive_2.html title="Notes" %}
-{% endif %}
+<h1>Notes</h1>
+
+{% for post in site.notes %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>{{ post.date | date: "%B %d, %Y" }}</p>
+{% endfor %}
 
