@@ -1,13 +1,12 @@
 ---
 title: "Notes"
-layout: default
+layout: post
 permalink: /notes/
 ---
-
-<h1>Notes</h1>
-
 {% for post in site.notes %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p>{{ post.date | date: "%B %d, %Y" }}</p>
+  <article class="post-entry">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.date | date: "%B %d, %Y" }}</p>
+  </article>
 {% endfor %}
 
