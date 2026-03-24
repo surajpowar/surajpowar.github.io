@@ -1,7 +1,6 @@
 ---
-title:  "Newton's Method for Approximation"
+title:  "Solution to Python Crash Course"
 author: Suraj Powar
-date: 2023-06-23
 mathjax: true
 layout: post
 categories: media
