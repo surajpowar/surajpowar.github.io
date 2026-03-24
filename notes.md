@@ -1,6 +1,7 @@
 ---
-layout: default
 title: "Notes"
+layout: archive
+permalink: /notes/
 ---
 
 {% if site.show_excerpts %}
@@ -8,3 +9,4 @@ title: "Notes"
 {% else %}
   {% include archive_2.html title="Notes" %}
 {% endif %}
+
