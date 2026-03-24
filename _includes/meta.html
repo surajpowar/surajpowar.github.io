@@ -3,3 +3,10 @@
   {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
   <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
 </header>
+
+
+<header>
+  <h1><a href="{{ include.note.url | relative_url }}">{{ include.note.title }}</a></h1>
+  {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
+  <time datetime="{{ include.note.date | date_to_xmlschema }}">{{ include.note.date | date: date_format }}</time>
+</header>
